@@ -69,3 +69,64 @@
   }
   
   
+  /*===== CLASS CSS ===== */
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    40% {
+      width: 40%;
+    }
+    60% {
+      width: 100%;
+      border-right: none;
+    }
+    100% {
+      width: 100%;
+      border-right: none;
+    }
+  }
+  
+  #typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #000;
+    animation: typing 10s steps(40, end) infinite;
+  }
+  
+  
+  #typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #000;
+    animation: typing 3s steps(40, end) infinite;
+  }
+  
+  
+  
+  
+  .section-title {
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+  }
+  
+  .section-title::after {
+    position: absolute;
+    content: '';
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
+  }
+  
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
