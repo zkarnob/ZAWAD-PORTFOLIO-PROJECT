@@ -284,3 +284,21 @@
   .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
+  /* ===== ABOUT =====*/
+.about__container {
+    row-gap: 2rem;
+    text-align: center;
+  }
+  
+  .about__subtitle {
+    margin-bottom: var(--mb-2);
+  }
+  
+  .about__img {
+    justify-self: center;
+  }
+  
+  .about__img img {
+    width: 200px;
+    border-radius: .5rem;
+  }
